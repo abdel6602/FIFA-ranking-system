@@ -38,31 +38,65 @@ class App{
     
     getAllRankings(){
         let rankings = this.rank();
-        console.log(rankings);
         this.saveCurrentRanking(rankings);
         this.isDataSaved = true;
         return rankings;
     }
 
-    showTeamInfo(teamName){
-        return {
-            "hello" : "world"
+    showTeamInfo(teamId){
+        let rankings;
+        let ranking = 0
+        let isFound = false;
+        if(this.isDataSaved){
+            rankings = this.getSavedRankings();
+        }
+        let teamName;
+        for(let i = 0; i < rankings.length; i++){
+            if(teamId === rankings[i].teamId){
+                teamName = rankings[i].team;
+                ranking = i + 1;
+                isFound = true;
+                break;
+            }
+        }
+        let output = {}
+        if(isFound){
+            for(let i = 0; i < this.data.length; i++){
+                if(this.data[i].Squad === teamName){
+                    output = this.data[i];
+                    break;
+                }
+            }
+            output.Rk = ranking;
+            output.status = "ok";
+            return output;
+        }
+        else{
+            return {
+                status : "invalid team name"
+            }
         }
     }
 
     getSavedRankings(){
-        return JSON.parse(fs.readFileSync(path.join(__dirname, 'savedData.json'), 'utf8'));
+        let rankings = JSON.parse(fs.readFileSync(path.join(__dirname, 'savedData.json'), 'utf8'));
+        return rankings;
     }
 
     saveCurrentRanking(rankings){
-        const jsonData = JSON.stringify(rankings, null, 2);
+        try{
+            const jsonData = JSON.stringify(rankings, null, 2);
 
-        fs.writeFile(path.join(__dirname, 'savedData.json'), jsonData, 'utf8', (err) => {
+        fs.writeFile('./savedData.json', jsonData, 'utf8', (err) => {
             if (err) {
                 console.error('Error writing JSON file:', err);
                 return;
             }
         })
+        return 1;
+        } catch(err){
+            return 0;
+        }   
     }
 
     rank(){
@@ -117,42 +151,41 @@ describe('App', () => {
         expect(app.getAllRankings()).toEqual(app.getSavedRankings())
     })
 
-    it.todo('try getting a valid team name info')
-    // , () => {
-    //     expect(app.showTeamInfo("Manchester City")).toEqual({
-    //         "Rk": "5",
-    //         "Squad": "Manchester City",
-    //         "Country": "ENG",
-    //         "LgRk": "2",
-    //         "MP": "30",
-    //         "W": "22",
-    //         "D": "4",
-    //         "L": "4",
-    //         "GF": "78",
-    //         "GA": "28",
-    //         "GD": "50",
-    //         "Pts": "70",
-    //         "Pts/MP": "2.33",
-    //         "xG": "63.5",
-    //         "xGA": "24.5",  
-    //         "xGD": "39",
-    //         "xGD/90": "1.3",
-    //         "Attendance": "53203",
-    //         "Top Team Scorer": "Erling Haaland - 32",
-    //         "Goalkeeper": "Ederson",
-    //         "status" : "ok"
-    //     })
-    // }
-    it.todo('try getting a valid team name info')
-    // , () => {
-    //     expect(app.showTeamInfo("asdas")).toEqual({
-    //         "status" : "invalid team name"
-    //     })
-    // }
+    it('try getting a valid team name info', () => {
+        expect(app.showTeamInfo(87)).toEqual({
+            "Rk": 5,
+            "Squad": "Manchester City",
+            "Country": "ENG",
+            "LgRk": "2",
+            "MP": "30",
+            "W": "22",
+            "D": "4",
+            "L": "4",
+            "GF": "78",
+            "GA": "28",
+            "GD": "50",
+            "Pts": "70",
+            "Pts_per_MP": "2.33",
+            "xG": "63.5",
+            "xGA": "24.5",  
+            "xGD": "39",
+            "xGD/90": "1.3",
+            "Attendance": "53203",
+            "Top Team Scorer": "Erling Haaland - 32",
+            "Goalkeeper": "Ederson",
+            "status" : "ok",
+            "id" : 87
+        })
+    })
 
-    it.todo("try saving all the current ratings")
-    // , ()=>{
-    //     //this one does not return anything
-    //     app.saveCurrentRatings();
-    // })
+    it('try getting a valid team name info', () => {
+        expect(app.showTeamInfo("asdas")).toEqual({
+            "status" : "invalid team name"
+        })
+    })
+
+    it("try saving all the current ratings", ()=>{
+        //this one does not return anything
+        expect(app.saveCurrentRanking(app.getAllRankings())).toBe(1);
+    })
 })
