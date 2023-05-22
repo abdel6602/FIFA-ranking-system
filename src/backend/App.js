@@ -103,11 +103,11 @@ class App{
         let rankings = []
         for(let i = 0; i < this.data.length; i++){
             let points = 0
-            points += parseInt(this.data[i].W) / parseInt(this.data[i].MP) * 2;
-            points -= parseInt(this.data[i].L) / parseInt(this.data[i].MP) ;
-            points += parseInt(this.data[i].Pts_per_MP);
+            points += parseInt(this.data[i].W) / parseInt(this.data[i].MP) * 3.5;
+            points -= parseInt(this.data[i].L) / parseInt(this.data[i].MP) * 10;
+            points += parseInt(this.data[i].Pts_per_MP) * 10;
             points += parseInt(this.data[i].xGD);
-            points += (20 - parseInt(this.data[i].LgRk)) * 20;
+            points += (20 - parseInt(this.data[i].LgRk)) * 25;
             points = Math.ceil(points);
             rankings.push({
                 teamId: this.data[i].id,
@@ -125,3 +125,4 @@ class App{
     }
 }
 
+module.exports = App;

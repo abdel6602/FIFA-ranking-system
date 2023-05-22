@@ -4,7 +4,7 @@
   "description": "a ranking system for football teams based on their season performance",
   "main": "main.js",
   "scripts": {
-    "start": "./src/backend node main.js",
+    "start": "node main.js",
     "test": "jest --watchAll --verbose"
   },
   "repository": {
