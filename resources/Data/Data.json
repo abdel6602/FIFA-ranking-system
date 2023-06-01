@@ -19,7 +19,7 @@
         "Attendance": "46200",
         "Top Team Scorer": "Florian Kainz Ellyes Skhiri - 6",
         "Goalkeeper": "Marvin Schw\u00e4be",
-        "id": 1
+        "teamId": 1
     },
     {
         "Squad": "Manchester Utd",
@@ -41,7 +41,7 @@
         "Attendance": "73704",
         "Top Team Scorer": "Marcus Rashford - 15",
         "Goalkeeper": "David de Gea",
-        "id": 2
+        "teamId": 2
     },
     {
         "Squad": "Sevilla",
@@ -63,7 +63,7 @@
         "Attendance": "35994",
         "Top Team Scorer": "Youssef En-Nesyri - 7",
         "Goalkeeper": "Yassine Bounou",
-        "id": 3
+        "teamId": 3
     },
     {
         "Squad": "Sampdoria",
@@ -85,7 +85,7 @@
         "Attendance": "12107",
         "Top Team Scorer": "Manolo Gabbiadini - 6",
         "Goalkeeper": "Emil Audero",
-        "id": 4
+        "teamId": 4
     },
     {
         "Squad": "Reims",
@@ -107,7 +107,7 @@
         "Attendance": "10805",
         "Top Team Scorer": "Folarin Balogun - 18",
         "Goalkeeper": "Yehvann Diouf",
-        "id": 5
+        "teamId": 5
     },
     {
         "Squad": "Valencia",
@@ -129,7 +129,7 @@
         "Attendance": "39709",
         "Top Team Scorer": "Edinson Cavani Justin Kluivert - 5",
         "Goalkeeper": "Giorgi Mamardashvili",
-        "id": 6
+        "teamId": 6
     },
     {
         "Squad": "Lecce",
@@ -151,7 +151,7 @@
         "Attendance": "14845",
         "Top Team Scorer": "Gabriel Strefezza - 7",
         "Goalkeeper": "Wladimiro Falcone",
-        "id": 7
+        "teamId": 7
     },
     {
         "Squad": "Schalke 04",
@@ -173,7 +173,7 @@
         "Attendance": "56991",
         "Top Team Scorer": "Marius B\u00fclter - 9",
         "Goalkeeper": "Alexander Schwolow",
-        "id": 8
+        "teamId": 8
     },
     {
         "Squad": "Liverpool",
@@ -195,7 +195,7 @@
         "Attendance": "49655",
         "Top Team Scorer": "Mohamed Salah - 16",
         "Goalkeeper": "Alisson",
-        "id": 9
+        "teamId": 9
     },
     {
         "Squad": "Brentford",
@@ -217,7 +217,7 @@
         "Attendance": "17075",
         "Top Team Scorer": "Ivan Toney - 19",
         "Goalkeeper": "David Raya",
-        "id": 10
+        "teamId": 10
     },
     {
         "Squad": "Barcelona",
@@ -239,7 +239,7 @@
         "Attendance": "83148",
         "Top Team Scorer": "Robert Lewandowski - 17",
         "Goalkeeper": "Marc-Andr\u00e9 ter Stegen",
-        "id": 11
+        "teamId": 11
     },
     {
         "Squad": "Clermont Foot",
@@ -261,7 +261,7 @@
         "Attendance": "9776",
         "Top Team Scorer": "Grejohn Kyei Muhammed Saracevic Cham - 6",
         "Goalkeeper": "Mory Diaw",
-        "id": 12
+        "teamId": 12
     },
     {
         "Squad": "Nantes",
@@ -283,7 +283,7 @@
         "Attendance": "26216",
         "Top Team Scorer": "Mostafa Mohamed - 8",
         "Goalkeeper": "Alban Lafont",
-        "id": 13
+        "teamId": 13
     },
     {
         "Squad": "Fulham",
@@ -305,7 +305,7 @@
         "Attendance": "22095",
         "Top Team Scorer": "Aleksandar Mitrovi? - 11",
         "Goalkeeper": "Bernd Leno",
-        "id": 14
+        "teamId": 14
     },
     {
         "Squad": "Milan",
@@ -327,7 +327,7 @@
         "Attendance": "46811",
         "Top Team Scorer": "Rafael Le\u00e3o - 10",
         "Goalkeeper": "Ciprian T?t?ru?anu",
-        "id": 15
+        "teamId": 15
     },
     {
         "Squad": "Wolves",
@@ -349,7 +349,7 @@
         "Attendance": "31534",
         "Top Team Scorer": "Daniel Podence - 6",
         "Goalkeeper": "Jos\u00e9 S\u00e1",
-        "id": 16
+        "teamId": 16
     },
     {
         "Squad": "Rennes",
@@ -371,7 +371,7 @@
         "Attendance": "25872",
         "Top Team Scorer": "Amine Gouiri - 10",
         "Goalkeeper": "Steve Mandanda",
-        "id": 17
+        "teamId": 17
     },
     {
         "Squad": "Mallorca",
@@ -393,7 +393,7 @@
         "Attendance": "14582",
         "Top Team Scorer": "Vedat Muriqi - 12",
         "Goalkeeper": "Predrag Rajkovi?",
-        "id": 18
+        "teamId": 18
     },
     {
         "Squad": "Leicester City",
@@ -415,7 +415,7 @@
         "Attendance": "31830",
         "Top Team Scorer": "Harvey Barnes - 10",
         "Goalkeeper": "Danny Ward",
-        "id": 19
+        "teamId": 19
     },
     {
         "Squad": "Espanyol",
@@ -437,7 +437,7 @@
         "Attendance": "21072",
         "Top Team Scorer": "Joselu - 12",
         "Goalkeeper": "\u00c1lvaro Fern\u00e1ndez",
-        "id": 20
+        "teamId": 20
     },
     {
         "Squad": "Southampton",
@@ -459,7 +459,7 @@
         "Attendance": "30490",
         "Top Team Scorer": "James Ward-Prowse - 7",
         "Goalkeeper": "Gavin Bazunu",
-        "id": 21
+        "teamId": 21
     },
     {
         "Squad": "Nice",
@@ -481,7 +481,7 @@
         "Attendance": "18650",
         "Top Team Scorer": "Ga\u00ebtan Laborde - 8",
         "Goalkeeper": "Kasper Schmeichel",
-        "id": 22
+        "teamId": 22
     },
     {
         "Squad": "Ajaccio",
@@ -503,7 +503,7 @@
         "Attendance": "6422",
         "Top Team Scorer": "Youcef Bela\u00efli Mounaim El Idrissy - 6",
         "Goalkeeper": "Benjamin Leroy",
-        "id": 23
+        "teamId": 23
     },
     {
         "Squad": "Real Sociedad",
@@ -525,7 +525,7 @@
         "Attendance": "31975",
         "Top Team Scorer": "Alexander S\u00f8rloth - 10",
         "Goalkeeper": "\u00c1lex Remiro",
-        "id": 24
+        "teamId": 24
     },
     {
         "Squad": "Toulouse",
@@ -547,7 +547,7 @@
         "Attendance": "23268",
         "Top Team Scorer": "Thijs Dallinga - 12",
         "Goalkeeper": "Maxime Dup\u00e9",
-        "id": 25
+        "teamId": 25
     },
     {
         "Squad": "Leverkusen",
@@ -569,7 +569,7 @@
         "Attendance": "26189",
         "Top Team Scorer": "Moussa Diaby - 9",
         "Goalkeeper": "Luk\u00e1\u0161 Hr\u00e1deck?",
-        "id": 26
+        "teamId": 26
     },
     {
         "Squad": "Crystal Palace",
@@ -591,7 +591,7 @@
         "Attendance": "24919",
         "Top Team Scorer": "Eberechi Eze - 7",
         "Goalkeeper": "Vicente Guaita",
-        "id": 27
+        "teamId": 27
     },
     {
         "Squad": "Hellas Verona",
@@ -613,7 +613,7 @@
         "Attendance": "9734",
         "Top Team Scorer": "Simone Verdi - 4",
         "Goalkeeper": "Lorenzo Montip\u00f2",
-        "id": 28
+        "teamId": 28
     },
     {
         "Squad": "Villarreal",
@@ -635,7 +635,7 @@
         "Attendance": "16375",
         "Top Team Scorer": "Jos\u00e9 Luis Morales - 7",
         "Goalkeeper": "Pepe Reina Ger\u00f3nimo Rulli",
-        "id": 29
+        "teamId": 29
     },
     {
         "Squad": "Osasuna",
@@ -657,7 +657,7 @@
         "Attendance": "19344",
         "Top Team Scorer": "Ezequiel \u00c1vila - 7",
         "Goalkeeper": "Aitor Fern\u00e1ndez",
-        "id": 30
+        "teamId": 30
     },
     {
         "Squad": "Bournemouth",
@@ -679,7 +679,7 @@
         "Attendance": "10359",
         "Top Team Scorer": "Philip Billing - 7",
         "Goalkeeper": "Neto",
-        "id": 31
+        "teamId": 31
     },
     {
         "Squad": "Nott'ham Forest",
@@ -701,7 +701,7 @@
         "Attendance": "29193",
         "Top Team Scorer": "Brennan Johnson - 8",
         "Goalkeeper": "Dean Henderson",
-        "id": 32
+        "teamId": 32
     },
     {
         "Squad": "Freiburg",
@@ -723,7 +723,7 @@
         "Attendance": "31736",
         "Top Team Scorer": "Vincenzo Grifo - 13",
         "Goalkeeper": "Mark Flekken",
-        "id": 33
+        "teamId": 33
     },
     {
         "Squad": "Mainz 05",
@@ -745,7 +745,7 @@
         "Attendance": "28506",
         "Top Team Scorer": "Marcus Ingvartsen Karim Onisiwo - 9",
         "Goalkeeper": "Robin Zentner",
-        "id": 34
+        "teamId": 34
     },
     {
         "Squad": "Elche",
@@ -767,7 +767,7 @@
         "Attendance": "20872",
         "Top Team Scorer": "Pere Milla - 6",
         "Goalkeeper": "\u00c9dgar Bad\u00eda",
-        "id": 35
+        "teamId": 35
     },
     {
         "Squad": "Bochum",
@@ -789,7 +789,7 @@
         "Attendance": "25282",
         "Top Team Scorer": "Philipp Hofmann - 8",
         "Goalkeeper": "Manuel Riemann",
-        "id": 36
+        "teamId": 36
     },
     {
         "Squad": "Almer\u00eda",
@@ -811,7 +811,7 @@
         "Attendance": "12844",
         "Top Team Scorer": "El Bilal Tour\u00e9 - 6",
         "Goalkeeper": "Fernando",
-        "id": 37
+        "teamId": 37
     },
     {
         "Squad": "Valladolid",
@@ -833,7 +833,7 @@
         "Attendance": "20344",
         "Top Team Scorer": "Sergio Le\u00f3n Cyle Larin - 5",
         "Goalkeeper": "Jordi Masip",
-        "id": 38
+        "teamId": 38
     },
     {
         "Squad": "Salernitana",
@@ -855,7 +855,7 @@
         "Attendance": "11162",
         "Top Team Scorer": "Boulaye Dia - 11",
         "Goalkeeper": "Luigi Sepe",
-        "id": 39
+        "teamId": 39
     },
     {
         "Squad": "Inter",
@@ -877,7 +877,7 @@
         "Attendance": "41524",
         "Top Team Scorer": "Lautaro Mart\u00ednez - 14",
         "Goalkeeper": "Andr\u00e9 Onana",
-        "id": 40
+        "teamId": 40
     },
     {
         "Squad": "Lens",
@@ -899,7 +899,7 @@
         "Attendance": "35228",
         "Top Team Scorer": "Lo\u00efs Openda - 17",
         "Goalkeeper": "Brice Samba",
-        "id": 41
+        "teamId": 41
     },
     {
         "Squad": "Atalanta",
@@ -921,7 +921,7 @@
         "Attendance": "11974",
         "Top Team Scorer": "Ademola Lookman - 13",
         "Goalkeeper": "Juan Musso",
-        "id": 42
+        "teamId": 42
     },
     {
         "Squad": "Augsburg",
@@ -943,7 +943,7 @@
         "Attendance": "27595",
         "Top Team Scorer": "Mergim Berisha - 9",
         "Goalkeeper": "Rafa? Gikiewicz",
-        "id": 43
+        "teamId": 43
     },
     {
         "Squad": "Brighton",
@@ -965,7 +965,7 @@
         "Attendance": "31460",
         "Top Team Scorer": "Alexis Mac Allister - 8",
         "Goalkeeper": "Robert S\u00e1nchez",
-        "id": 44
+        "teamId": 44
     },
     {
         "Squad": "Chelsea",
@@ -987,7 +987,7 @@
         "Attendance": "39997",
         "Top Team Scorer": "Kai Havertz - 7",
         "Goalkeeper": "Kepa Arrizabalaga",
-        "id": 45
+        "teamId": 45
     },
     {
         "Squad": "Udinese",
@@ -1009,7 +1009,7 @@
         "Attendance": "13590",
         "Top Team Scorer": "Beto - 10",
         "Goalkeeper": "Marco Silvestri",
-        "id": 46
+        "teamId": 46
     },
     {
         "Squad": "Brest",
@@ -1031,7 +1031,7 @@
         "Attendance": "10489",
         "Top Team Scorer": "J\u00e9r\u00e9my Le Douaron - 8",
         "Goalkeeper": "Marco Bizot",
-        "id": 47
+        "teamId": 47
     },
     {
         "Squad": "Everton",
@@ -1053,7 +1053,7 @@
         "Attendance": "39237",
         "Top Team Scorer": "Demarai Gray Dwight McNeil - 4",
         "Goalkeeper": "Jordan Pickford",
-        "id": 48
+        "teamId": 48
     },
     {
         "Squad": "Athletic Club",
@@ -1075,7 +1075,7 @@
         "Attendance": "44124",
         "Top Team Scorer": "I\u00f1aki Williams Oihan Sancet - 8",
         "Goalkeeper": "Unai Sim\u00f3n",
-        "id": 49
+        "teamId": 49
     },
     {
         "Squad": "Torino",
@@ -1097,7 +1097,7 @@
         "Attendance": "10756",
         "Top Team Scorer": "Antonio Sanabria - 9",
         "Goalkeeper": "Vanja Milinkovi?-Savi?",
-        "id": 50
+        "teamId": 50
     },
     {
         "Squad": "Monaco",
@@ -1119,7 +1119,7 @@
         "Attendance": "6498",
         "Top Team Scorer": "Wissam Ben Yedder - 17",
         "Goalkeeper": "Alexander N\u00fcbel",
-        "id": 51
+        "teamId": 51
     },
     {
         "Squad": "Roma",
@@ -1141,7 +1141,7 @@
         "Attendance": "37063",
         "Top Team Scorer": "Paulo Dybala - 11",
         "Goalkeeper": "Rui Patr\u00edcio",
-        "id": 52
+        "teamId": 52
     },
     {
         "Squad": "Lille",
@@ -1163,7 +1163,7 @@
         "Attendance": "33120",
         "Top Team Scorer": "Jonathan David - 21",
         "Goalkeeper": "Lucas Chevalier",
-        "id": 53
+        "teamId": 53
     },
     {
         "Squad": "Strasbourg",
@@ -1185,7 +1185,7 @@
         "Attendance": "22081",
         "Top Team Scorer": "Habib Diallo - 15",
         "Goalkeeper": "Matz Sels",
-        "id": 54
+        "teamId": 54
     },
     {
         "Squad": "Montpellier",
@@ -1207,7 +1207,7 @@
         "Attendance": "11710",
         "Top Team Scorer": "Sepe Elye Wahi - 13",
         "Goalkeeper": "Jonas Omlin",
-        "id": 55
+        "teamId": 55
     },
     {
         "Squad": "Auxerre",
@@ -1229,7 +1229,7 @@
         "Attendance": "12329",
         "Top Team Scorer": "M'Baye Niang Nuno da Costa - 5",
         "Goalkeeper": "Beno\u00eet Costil",
-        "id": 56
+        "teamId": 56
     },
     {
         "Squad": "Werder Bremen",
@@ -1251,7 +1251,7 @@
         "Attendance": "35960",
         "Top Team Scorer": "Niclas F\u00fcllkrug - 16",
         "Goalkeeper": "Ji?\u00ed Pavlenka",
-        "id": 57
+        "teamId": 57
     },
     {
         "Squad": "Empoli",
@@ -1273,7 +1273,7 @@
         "Attendance": "5715",
         "Top Team Scorer": "Tommaso Baldanzi - 4",
         "Goalkeeper": "Guglielmo Vicario",
-        "id": 58
+        "teamId": 58
     },
     {
         "Squad": "Sassuolo",
@@ -1295,7 +1295,7 @@
         "Attendance": "7691",
         "Top Team Scorer": "Armand Lauriente - 7",
         "Goalkeeper": "Andrea Consigli",
-        "id": 59
+        "teamId": 59
     },
     {
         "Squad": "Eint Frankfurt",
@@ -1317,7 +1317,7 @@
         "Attendance": "50086",
         "Top Team Scorer": "Randal Kolo Muani - 13",
         "Goalkeeper": "Kevin Trapp",
-        "id": 60
+        "teamId": 60
     },
     {
         "Squad": "M'Gladbach",
@@ -1339,7 +1339,7 @@
         "Attendance": "48595",
         "Top Team Scorer": "Marcus Thuram - 13",
         "Goalkeeper": "Jonas Omlin",
-        "id": 61
+        "teamId": 61
     },
     {
         "Squad": "Troyes",
@@ -1361,7 +1361,7 @@
         "Attendance": "8344",
         "Top Team Scorer": "Mama Samba Bald\u00e9 - 11",
         "Goalkeeper": "Gauthier Gallon",
-        "id": 62
+        "teamId": 62
     },
     {
         "Squad": "Angers",
@@ -1383,7 +1383,7 @@
         "Attendance": "8953",
         "Top Team Scorer": "Adrien Hunou Sofiane Boufal - 4",
         "Goalkeeper": "Paul Bernardoni",
-        "id": 63
+        "teamId": 63
     },
     {
         "Squad": "Stuttgart",
@@ -1405,7 +1405,7 @@
         "Attendance": "46322",
         "Top Team Scorer": "Sehrou Guirassy - 7",
         "Goalkeeper": "Florian M\u00fcller",
-        "id": 64
+        "teamId": 64
     },
     {
         "Squad": "Cremonese",
@@ -1427,7 +1427,7 @@
         "Attendance": "7651",
         "Top Team Scorer": "Cyriel Dessers Daniel Ciofani - 6",
         "Goalkeeper": "Marco Carnesecchi",
-        "id": 65
+        "teamId": 65
     },
     {
         "Squad": "Tottenham",
@@ -1449,7 +1449,7 @@
         "Attendance": "61620",
         "Top Team Scorer": "Harry Kane - 23",
         "Goalkeeper": "Hugo Lloris",
-        "id": 66
+        "teamId": 66
     },
     {
         "Squad": "Arsenal",
@@ -1471,7 +1471,7 @@
         "Attendance": "60203",
         "Top Team Scorer": "Martinelli - 15",
         "Goalkeeper": "Aaron Ramsdale",
-        "id": 67
+        "teamId": 67
     },
     {
         "Squad": "Bologna",
@@ -1493,7 +1493,7 @@
         "Attendance": "11131",
         "Top Team Scorer": "Marko Arnautovi? Riccardo Orsolini - 8",
         "Goalkeeper": "?ukasz Skorupski",
-        "id": 68
+        "teamId": 68
     },
     {
         "Squad": "Hoffenheim",
@@ -1515,7 +1515,7 @@
         "Attendance": "22301",
         "Top Team Scorer": "Andrej Kramari? - 9",
         "Goalkeeper": "Oliver Baumann",
-        "id": 69
+        "teamId": 69
     },
     {
         "Squad": "Betis",
@@ -1537,7 +1537,7 @@
         "Attendance": "50550",
         "Top Team Scorer": "Borja Iglesias - 12",
         "Goalkeeper": "Rui Silva",
-        "id": 70
+        "teamId": 70
     },
     {
         "Squad": "Atl\u00e9tico Madrid",
@@ -1559,7 +1559,7 @@
         "Attendance": "56432",
         "Top Team Scorer": "Antoine Griezmann - 11",
         "Goalkeeper": "Jan Oblak",
-        "id": 71
+        "teamId": 71
     },
     {
         "Squad": "Newcastle Utd",
@@ -1581,7 +1581,7 @@
         "Attendance": "52243",
         "Top Team Scorer": "Miguel Almir\u00f3n - 11",
         "Goalkeeper": "Nick Pope",
-        "id": 72
+        "teamId": 72
     },
     {
         "Squad": "Hertha BSC",
@@ -1603,7 +1603,7 @@
         "Attendance": "51884",
         "Top Team Scorer": "Dodi Lukebakio - 11",
         "Goalkeeper": "Oliver Christensen",
-        "id": 73
+        "teamId": 73
     },
     {
         "Squad": "Lorient",
@@ -1625,7 +1625,7 @@
         "Attendance": "13515",
         "Top Team Scorer": "Terem Moffi - 12",
         "Goalkeeper": "Vito Mannone",
-        "id": 74
+        "teamId": 74
     },
     {
         "Squad": "Wolfsburg",
@@ -1647,7 +1647,7 @@
         "Attendance": "25607",
         "Top Team Scorer": "Yannick Gerhardt - 6",
         "Goalkeeper": "Koen Casteels",
-        "id": 75
+        "teamId": 75
     },
     {
         "Squad": "C\u00e1diz",
@@ -1669,7 +1669,7 @@
         "Attendance": "17451",
         "Top Team Scorer": "\u00c1lex Fern\u00e1ndez Lucas P\u00e9rez... - 3",
         "Goalkeeper": "Jerem\u00edas Ledesma",
-        "id": 76
+        "teamId": 76
     },
     {
         "Squad": "Paris S-G",
@@ -1691,7 +1691,7 @@
         "Attendance": "40508",
         "Top Team Scorer": "Kylian Mbapp\u00e9 - 22",
         "Goalkeeper": "Gianluigi Donnarumma",
-        "id": 77
+        "teamId": 77
     },
     {
         "Squad": "Juventus",
@@ -1713,7 +1713,7 @@
         "Attendance": "25078",
         "Top Team Scorer": "Adrien Rabiot Du\u0161an Vlahovi? - 8",
         "Goalkeeper": "Wojciech Szcz?sny",
-        "id": 78
+        "teamId": 78
     },
     {
         "Squad": "Getafe",
@@ -1735,7 +1735,7 @@
         "Attendance": "11435",
         "Top Team Scorer": "Enes \u00dcnal - 13",
         "Goalkeeper": "David Soria",
-        "id": 79
+        "teamId": 79
     },
     {
         "Squad": "Lazio",
@@ -1757,7 +1757,7 @@
         "Attendance": "22969",
         "Top Team Scorer": "Ciro Immobile Mattia Zaccagni - 10",
         "Goalkeeper": "Ivan Provedel",
-        "id": 80
+        "teamId": 80
     },
     {
         "Squad": "Spezia",
@@ -1779,7 +1779,7 @@
         "Attendance": "4558",
         "Top Team Scorer": "M'Bala Nzola - 13",
         "Goalkeeper": "Bart?omiej Dr?gowski",
-        "id": 81
+        "teamId": 81
     },
     {
         "Squad": "Napoli",
@@ -1801,7 +1801,7 @@
         "Attendance": "25662",
         "Top Team Scorer": "Victor Osimhen - 21",
         "Goalkeeper": "Alex Meret",
-        "id": 82
+        "teamId": 82
     },
     {
         "Squad": "Bayern Munich",
@@ -1823,7 +1823,7 @@
         "Attendance": "75000",
         "Top Team Scorer": "Jamal Musiala - 11",
         "Goalkeeper": "Yann Sommer",
-        "id": 83
+        "teamId": 83
     },
     {
         "Squad": "Marseille",
@@ -1845,7 +1845,7 @@
         "Attendance": "58623",
         "Top Team Scorer": "Alexis S\u00e1nchez - 12",
         "Goalkeeper": "Pau L\u00f3pez",
-        "id": 84
+        "teamId": 84
     },
     {
         "Squad": "Lyon",
@@ -1867,7 +1867,7 @@
         "Attendance": "40814",
         "Top Team Scorer": "Alexandre Lacazette - 19",
         "Goalkeeper": "Anthony Lopes",
-        "id": 85
+        "teamId": 85
     },
     {
         "Squad": "Real Madrid",
@@ -1889,7 +1889,7 @@
         "Attendance": "57300",
         "Top Team Scorer": "Karim Benzema - 14",
         "Goalkeeper": "Thibaut Courtois",
-        "id": 86
+        "teamId": 86
     },
     {
         "Squad": "Manchester City",
@@ -1911,7 +1911,7 @@
         "Attendance": "53203",
         "Top Team Scorer": "Erling Haaland - 32",
         "Goalkeeper": "Ederson",
-        "id": 87
+        "teamId": 87
     },
     {
         "Squad": "Rayo Vallecano",
@@ -1933,7 +1933,7 @@
         "Attendance": "12662",
         "Top Team Scorer": "Isaac Palaz\u00f3n Camacho - 8",
         "Goalkeeper": "Stole Dimitrievski",
-        "id": 88
+        "teamId": 88
     },
     {
         "Squad": "Leeds United",
@@ -1955,7 +1955,7 @@
         "Attendance": "36517",
         "Top Team Scorer": "Rodrigo - 11",
         "Goalkeeper": "Illan Meslier",
-        "id": 89
+        "teamId": 89
     },
     {
         "Squad": "Celta Vigo",
@@ -1977,7 +1977,7 @@
         "Attendance": "14029",
         "Top Team Scorer": "Iago Aspas - 12",
         "Goalkeeper": "Agust\u00edn Marches\u00edn",
-        "id": 90
+        "teamId": 90
     },
     {
         "Squad": "Union Berlin",
@@ -1999,7 +1999,7 @@
         "Attendance": "20209",
         "Top Team Scorer": "Sheraldo Becker - 8",
         "Goalkeeper": "Frederik R\u00f8nnow",
-        "id": 91
+        "teamId": 91
     },
     {
         "Squad": "Monza",
@@ -2021,7 +2021,7 @@
         "Attendance": "8050",
         "Top Team Scorer": "Carlos - 5",
         "Goalkeeper": "Michele Di Gregorio",
-        "id": 92
+        "teamId": 92
     },
     {
         "Squad": "Aston Villa",
@@ -2043,7 +2043,7 @@
         "Attendance": "41688",
         "Top Team Scorer": "Ollie Watkins - 14",
         "Goalkeeper": "Emiliano Mart\u00ednez",
-        "id": 93
+        "teamId": 93
     },
     {
         "Squad": "West Ham",
@@ -2065,7 +2065,7 @@
         "Attendance": "62460",
         "Top Team Scorer": "Sa\u00efd Benrahma Jarrod Bowen - 5",
         "Goalkeeper": "?ukasz Fabia?ski",
-        "id": 94
+        "teamId": 94
     },
     {
         "Squad": "Dortmund",
@@ -2087,7 +2087,7 @@
         "Attendance": "81199",
         "Top Team Scorer": "Julian Brandt - 8",
         "Goalkeeper": "Gregor Kobel",
-        "id": 95
+        "teamId": 95
     },
     {
         "Squad": "Girona",
@@ -2109,7 +2109,7 @@
         "Attendance": "11226",
         "Top Team Scorer": "Cristhian Stuani Valent\u00edn Castellanos - 7",
         "Goalkeeper": "Paulo Gazzaniga",
-        "id": 96
+        "teamId": 96
     },
     {
         "Squad": "Fiorentina",
@@ -2131,7 +2131,7 @@
         "Attendance": "22543",
         "Top Team Scorer": "Arthur - 7",
         "Goalkeeper": "Pietro Terracciano",
-        "id": 97
+        "teamId": 97
     },
     {
         "Squad": "RB Leipzig",
@@ -2153,6 +2153,6 @@
         "Attendance": "45851",
         "Top Team Scorer": "Christopher Nkunku - 12",
         "Goalkeeper": "Janis Blaswich",
-        "id": 98
+        "teamId": 98
     }
 ]

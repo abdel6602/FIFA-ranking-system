@@ -1,16 +1,15 @@
 const fs = require('fs')
 const path = require('path')
 
-const Data_file = './Data.json'
-const to_save_data = path.join(__dirname, 'savedData.json')
-
+const dataFile = path.join(__dirname, "../../resources/Data/Data.json");
+const savedDataFile = path.join(__dirname, "../../resources/Data/savedData.json")
 
 class App{
 
     constructor(isDataSaved){
         this.isDataSaved = isDataSaved;
         try{ 
-            this.data = JSON.parse(fs.readFileSync('../../resources/Data/Data.json'), 'utf8');
+            this.data = JSON.parse(fs.readFileSync(dataFile));
         }catch(err){
             console.log("error", err.message);
         }
@@ -18,22 +17,16 @@ class App{
     }
 
     getRanking(teamId){
-        var rankings;
-        if(this.isDataSaved){
-            rankings = this.getSavedRankings()
-        }
-        else{
-            rankings = this.getAllRankings();
-        }
-        for(var i = 0; i < rankings.length; i++){
-            if(rankings[i].teamId === teamId){
+        let rankings = this.isDataSaved ? this.getSavedRankings() : this.getAllRankings();
+        for(let i = 0; i < rankings.length; i++){
+            if(rankings[i].teamId == teamId){
                 return {
                     "ranking" : i + 1,
                     "status" : "ok"
                 }
             }
         }
-        return {"status": "invalid team name"}
+        return {"status": "invalid team id"}
     }
     
     getAllRankings(){
@@ -44,43 +37,34 @@ class App{
     }
 
     showTeamInfo(teamId){
-        let rankings;
-        let ranking = 0
-        let isFound = false;
-        if(this.isDataSaved){
-            rankings = this.getSavedRankings();
-        }
-        let teamName;
-        for(let i = 0; i < rankings.length; i++){
-            if(teamId === rankings[i].teamId){
-                teamName = rankings[i].team;
-                ranking = i + 1;
-                isFound = true;
-                break;
-            }
-        }
+        let rank = this.getRanking(teamId);
+        let rankings = this.isDataSaved ? this.getSavedRankings() : this.getAllRankings();
         let output = {}
-        if(isFound){
-            for(let i = 0; i < this.data.length; i++){
-                if(this.data[i].Squad === teamName){
-                    output = this.data[i];
-                    break;
-                }
-            }
-            output.Rk = ranking;
-            output.status = "ok";
-            return output;
-        }
-        else{
-            return {
-                status : "invalid team name"
+        for(let i = 0; i < this.data.length; i++){
+            if(this.data[i].teamId == teamId) {
+                output = this.data[i];
+                output.rank = rank.ranking;
+                output.status = "ok";
+                return output;
             }
         }
+        return {
+            status : "invalid team id"
+        }
+        // if(rank.ranking - 1 < rankings.length){
+        //     output = rankings[rank.ranking - 1]
+        //     output.rank = rank.ranking
+        //     output.status = "ok";
+        // }
+        // else {
+        //     output.status = "invalid team id";
+        // }
     }
 
     getSavedRankings(){
-        let rankings = JSON.parse(fs.readFileSync('../../resources/Data/savedData.json', 'utf8'));
-        return rankings;
+        if(this.isDataSaved){
+            return JSON.parse(fs.readFileSync(path.join(__dirname,'../../resources/Data/savedData.json'), "utf-8"));
+        }
     }
 
     saveCurrentRanking(rankings){
@@ -90,7 +74,6 @@ class App{
         fs.writeFile('../../resources/Data/savedData.json', jsonData, 'utf8', (err) => {
             if (err) {
                 console.error('Error writing JSON file:', err);
-                return;
             }
         })
         return 1;
@@ -110,7 +93,7 @@ class App{
             points += (20 - parseInt(this.data[i].LgRk)) * 25;
             points = Math.ceil(points);
             rankings.push({
-                teamId: this.data[i].id,
+                teamId: this.data[i].teamId,
                 team: this.data[i].Squad,
                 total_points : points
             })
