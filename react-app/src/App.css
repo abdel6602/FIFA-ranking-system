@@ -1,0 +1,61 @@
+.header-div{
+    background: #ececec;
+    box-shadow: 0 2px 17px -4px rgba(54,54,54,0.99);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fifa_logo{
+    margin:2.5rem;
+    width: 10vw;
+}
+
+.fifa_logo:hover{
+    cursor:pointer;
+}
+
+.magnifying-glass{
+    width: 1.5rem;
+    margin-right: 10px;
+}
+
+.magnifying-glass:hover{
+    cursor:pointer;
+}
+
+.search-bar{
+    width: 15rem;
+    margin-right: 2.5rem;
+    border-radius: 10px;
+    padding: 5px 5px 5px 15px
+}
+
+.Title{
+    color: #030303;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    text-align:center;
+}
+
+.row{
+    /*width:100vw;*/
+}
+
+.row:hover{
+    background: #ECECECFF;
+    transition: all 0.3s ease-in-out;
+}
+
+.success{
+    color:limegreen;
+}
+
+.failure{
+    color:red
+}
+
+.titles{
+    font-weight: bold;
+}

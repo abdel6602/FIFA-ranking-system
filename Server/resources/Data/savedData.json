@@ -1,0 +1,492 @@
+[
+  {
+    "teamId": 87,
+    "team": "Manchester City",
+    "total_points": 817
+  },
+  {
+    "teamId": 67,
+    "team": "Arsenal",
+    "total_points": 809
+  },
+  {
+    "teamId": 77,
+    "team": "Paris S-G",
+    "total_points": 804
+  },
+  {
+    "teamId": 83,
+    "team": "Bayern Munich",
+    "total_points": 797
+  },
+  {
+    "teamId": 82,
+    "team": "Napoli",
+    "total_points": 791
+  },
+  {
+    "teamId": 11,
+    "team": "Barcelona",
+    "total_points": 769
+  },
+  {
+    "teamId": 86,
+    "team": "Real Madrid",
+    "total_points": 750
+  },
+  {
+    "teamId": 95,
+    "team": "Dortmund",
+    "total_points": 723
+  },
+  {
+    "teamId": 41,
+    "team": "Lens",
+    "total_points": 687
+  },
+  {
+    "teamId": 84,
+    "team": "Marseille",
+    "total_points": 657
+  },
+  {
+    "teamId": 80,
+    "team": "Lazio",
+    "total_points": 649
+  },
+  {
+    "teamId": 71,
+    "team": "Atlético Madrid",
+    "total_points": 634
+  },
+  {
+    "teamId": 51,
+    "team": "Monaco",
+    "total_points": 612
+  },
+  {
+    "teamId": 78,
+    "team": "Juventus",
+    "total_points": 607
+  },
+  {
+    "teamId": 72,
+    "team": "Newcastle Utd",
+    "total_points": 598
+  },
+  {
+    "teamId": 98,
+    "team": "RB Leipzig",
+    "total_points": 588
+  },
+  {
+    "teamId": 53,
+    "team": "Lille",
+    "total_points": 574
+  },
+  {
+    "teamId": 52,
+    "team": "Roma",
+    "total_points": 565
+  },
+  {
+    "teamId": 2,
+    "team": "Manchester Utd",
+    "total_points": 564
+  },
+  {
+    "teamId": 91,
+    "team": "Union Berlin",
+    "total_points": 553
+  },
+  {
+    "teamId": 66,
+    "team": "Tottenham",
+    "total_points": 542
+  },
+  {
+    "teamId": 15,
+    "team": "Milan",
+    "total_points": 533
+  },
+  {
+    "teamId": 24,
+    "team": "Real Sociedad",
+    "total_points": 530
+  },
+  {
+    "teamId": 9,
+    "team": "Liverpool",
+    "total_points": 529
+  },
+  {
+    "teamId": 17,
+    "team": "Rennes",
+    "total_points": 525
+  },
+  {
+    "teamId": 40,
+    "team": "Inter",
+    "total_points": 524
+  },
+  {
+    "teamId": 44,
+    "team": "Brighton",
+    "total_points": 488
+  },
+  {
+    "teamId": 85,
+    "team": "Lyon",
+    "total_points": 485
+  },
+  {
+    "teamId": 34,
+    "team": "Mainz 05",
+    "total_points": 484
+  },
+  {
+    "teamId": 70,
+    "team": "Betis",
+    "total_points": 484
+  },
+  {
+    "teamId": 42,
+    "team": "Atalanta",
+    "total_points": 482
+  },
+  {
+    "teamId": 33,
+    "team": "Freiburg",
+    "total_points": 478
+  },
+  {
+    "teamId": 26,
+    "team": "Leverkusen",
+    "total_points": 475
+  },
+  {
+    "teamId": 29,
+    "team": "Villarreal",
+    "total_points": 470
+  },
+  {
+    "teamId": 49,
+    "team": "Athletic Club",
+    "total_points": 468
+  },
+  {
+    "teamId": 93,
+    "team": "Aston Villa",
+    "total_points": 456
+  },
+  {
+    "teamId": 75,
+    "team": "Wolfsburg",
+    "total_points": 455
+  },
+  {
+    "teamId": 5,
+    "team": "Reims",
+    "total_points": 424
+  },
+  {
+    "teamId": 60,
+    "team": "Eint Frankfurt",
+    "total_points": 400
+  },
+  {
+    "teamId": 22,
+    "team": "Nice",
+    "total_points": 395
+  },
+  {
+    "teamId": 68,
+    "team": "Bologna",
+    "total_points": 385
+  },
+  {
+    "teamId": 10,
+    "team": "Brentford",
+    "total_points": 375
+  },
+  {
+    "teamId": 97,
+    "team": "Fiorentina",
+    "total_points": 366
+  },
+  {
+    "teamId": 14,
+    "team": "Fulham",
+    "total_points": 365
+  },
+  {
+    "teamId": 88,
+    "team": "Rayo Vallecano",
+    "total_points": 351
+  },
+  {
+    "teamId": 30,
+    "team": "Osasuna",
+    "total_points": 350
+  },
+  {
+    "teamId": 96,
+    "team": "Girona",
+    "total_points": 349
+  },
+  {
+    "teamId": 61,
+    "team": "M'Gladbach",
+    "total_points": 338
+  },
+  {
+    "teamId": 74,
+    "team": "Lorient",
+    "total_points": 334
+  },
+  {
+    "teamId": 50,
+    "team": "Torino",
+    "total_points": 309
+  },
+  {
+    "teamId": 1,
+    "team": "Köln",
+    "total_points": 294
+  },
+  {
+    "teamId": 46,
+    "team": "Udinese",
+    "total_points": 286
+  },
+  {
+    "teamId": 59,
+    "team": "Sassuolo",
+    "total_points": 285
+  },
+  {
+    "teamId": 45,
+    "team": "Chelsea",
+    "total_points": 284
+  },
+  {
+    "teamId": 25,
+    "team": "Toulouse",
+    "total_points": 275
+  },
+  {
+    "teamId": 18,
+    "team": "Mallorca",
+    "total_points": 268
+  },
+  {
+    "teamId": 57,
+    "team": "Werder Bremen",
+    "total_points": 265
+  },
+  {
+    "teamId": 90,
+    "team": "Celta Vigo",
+    "total_points": 265
+  },
+  {
+    "teamId": 12,
+    "team": "Clermont Foot",
+    "total_points": 260
+  },
+  {
+    "teamId": 55,
+    "team": "Montpellier",
+    "total_points": 250
+  },
+  {
+    "teamId": 92,
+    "team": "Monza",
+    "total_points": 233
+  },
+  {
+    "teamId": 27,
+    "team": "Crystal Palace",
+    "total_points": 232
+  },
+  {
+    "teamId": 3,
+    "team": "Sevilla",
+    "total_points": 215
+  },
+  {
+    "teamId": 69,
+    "team": "Hoffenheim",
+    "total_points": 201
+  },
+  {
+    "teamId": 43,
+    "team": "Augsburg",
+    "total_points": 190
+  },
+  {
+    "teamId": 16,
+    "team": "Wolves",
+    "total_points": 170
+  },
+  {
+    "teamId": 39,
+    "team": "Salernitana",
+    "total_points": 168
+  },
+  {
+    "teamId": 13,
+    "team": "Nantes",
+    "total_points": 158
+  },
+  {
+    "teamId": 94,
+    "team": "West Ham",
+    "total_points": 153
+  },
+  {
+    "teamId": 56,
+    "team": "Auxerre",
+    "total_points": 137
+  },
+  {
+    "teamId": 58,
+    "team": "Empoli",
+    "total_points": 128
+  },
+  {
+    "teamId": 79,
+    "team": "Getafe",
+    "total_points": 125
+  },
+  {
+    "teamId": 47,
+    "team": "Brest",
+    "total_points": 124
+  },
+  {
+    "teamId": 64,
+    "team": "Stuttgart",
+    "total_points": 123
+  },
+  {
+    "teamId": 38,
+    "team": "Valladolid",
+    "total_points": 120
+  },
+  {
+    "teamId": 7,
+    "team": "Lecce",
+    "total_points": 112
+  },
+  {
+    "teamId": 31,
+    "team": "Bournemouth",
+    "total_points": 112
+  },
+  {
+    "teamId": 54,
+    "team": "Strasbourg",
+    "total_points": 107
+  },
+  {
+    "teamId": 19,
+    "team": "Leicester City",
+    "total_points": 106
+  },
+  {
+    "teamId": 76,
+    "team": "Cádiz",
+    "total_points": 101
+  },
+  {
+    "teamId": 89,
+    "team": "Leeds United",
+    "total_points": 101
+  },
+  {
+    "teamId": 37,
+    "team": "Almería",
+    "total_points": 89
+  },
+  {
+    "teamId": 20,
+    "team": "Espanyol",
+    "total_points": 69
+  },
+  {
+    "teamId": 6,
+    "team": "Valencia",
+    "total_points": 65
+  },
+  {
+    "teamId": 36,
+    "team": "Bochum",
+    "total_points": 59
+  },
+  {
+    "teamId": 81,
+    "team": "Spezia",
+    "total_points": 36
+  },
+  {
+    "teamId": 8,
+    "team": "Schalke 04",
+    "total_points": 35
+  },
+  {
+    "teamId": 28,
+    "team": "Hellas Verona",
+    "total_points": 35
+  },
+  {
+    "teamId": 73,
+    "team": "Hertha BSC",
+    "total_points": 30
+  },
+  {
+    "teamId": 62,
+    "team": "Troyes",
+    "total_points": 13
+  },
+  {
+    "teamId": 48,
+    "team": "Everton",
+    "total_points": 9
+  },
+  {
+    "teamId": 65,
+    "team": "Cremonese",
+    "total_points": -29
+  },
+  {
+    "teamId": 32,
+    "team": "Nott'ham Forest",
+    "total_points": -47
+  },
+  {
+    "teamId": 21,
+    "team": "Southampton",
+    "total_points": -53
+  },
+  {
+    "teamId": 23,
+    "team": "Ajaccio",
+    "total_points": -53
+  },
+  {
+    "teamId": 4,
+    "team": "Sampdoria",
+    "total_points": -85
+  },
+  {
+    "teamId": 63,
+    "team": "Angers",
+    "total_points": -101
+  },
+  {
+    "teamId": 35,
+    "team": "Elche",
+    "total_points": -114
+  }
+]
